@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 680px;
+    margin: 25px auto;
+    height: auto;
+    background-color:grey;
+}
+
+nav{
+    display: inline;
+    text-align: center;
+    background-color: lawngreen;
+}
+
+ul{
+    display: inline;
+   
+    
+}
+li{
+    display: inline;
+    margin: 15px;
+    padding: 8px;
+    
+    background-color: hotpink;
+    background-color: indigo;
+}
+
+li:hover{
+    font-size: large;
+    font-size: x-large;
+    color:white
+}
+
+
