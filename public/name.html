@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>correct Names</title>
+</head>
+<body>
+
+
+    <form action="#" onsubmit="data()">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="age">Age</label>
+        <input type="date" name="age" id="age" required>
+        <button id="enterDate">Submit</button>
+        <p id="display"></p>
+
+    </form>
+    <script>
+       const name= document.getElementById('name')
+       const age = document.getElementById('age')
+       const display = document.getElementById('display')
+
+      const data = () =>{
+
+     // const newName = name.value
+        const newAge = age.value
+        display.innerText =    `Yand you entered this ${age}`
+
+        console.log(display)
+        
+          
+      }
+
+    </script>
+</body>
+</html>
